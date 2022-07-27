@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style >
+
+    body
+{
+background-image:url("https://media.istockphoto.com/photos/abstract-blue-background-blue-paper-in-pastel-colours-bright-halftone-picture-id1061222280?b=1&k=20&m=1061222280&s=170667a&w=0&h=1MT-qczVVXrdp20XbTip0nfbYZyXoMIFEuHQmJONDmU=");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+  }
+  .head{
+   height:100px;
+   width:100%;
+  }
+  .head h1{
+  text-align:center;
+  }
+ 
+  label{
+  font-size:22px;
+  color:black;
+  text-shadow:0px 1px 1px black;
+  }
+  input{
+  width:200px;
+   font-size:22px;
+  }
+   a{
+ color:red;
+ font-size:22px;
+ }
+ .mylabel{
+    display: block;
+
+}
+.fileclass{
+
+ width: 500px;
+    margin: auto;
+    padding: 90px 20px 30px;
+  /*   background-color: rgba(0,0,0,.3 ); */
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+}
+ 
+ </style>
+</head>
+<body>
+<center>
+	<form action="Filereg" method="post" class="fileclass">
+		<div>
+        <label for="fname" class="mylabel">First Name</label>
+        <input type="text"  name="fname" id="fname" class="myinput">
+    </div>
+    <div>
+        <label for="mail" class="mylabel">Email</label>
+        <input type="email"  name="email" id="mail" class="myinput">
+    </div>
+   <div>
+    <label for="dob" class="mylabel">Dob</label>
+    <input type="date"  name="dob" id="dob" class="myinput">
+   </div>
+   <div>
+    <label for="num" class="mylabel">Mobile</label>
+    <input type="number"  name="mobile" id="num" class="myinput">
+   </div>
+   <div>
+    <label for="newpass"  class="mylabel">New password</label>
+    <input type="password"  name="password" id="newpass" class="myinput">
+   </div>
+   <div>
+    <label for="Retype-password"  class="mylabel">Retype-password</label>
+    <input type="password"  name="Retypepassword" id="Retype-password" class="myinput">
+   </div> 
+   <br>  
+   <div>
+    <input type="submit" name="submit" value="SUBMIT" class="myinput">
+   </div>
+	</form>
+	</center>
+
+</body>
+</html>
